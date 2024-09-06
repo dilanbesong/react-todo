@@ -59,7 +59,7 @@ const App = () => {
 
     return(
         <center>
-
+              <h2>Base build todo list</h2>
             <form className="item form-control" onSubmit={handleAdd}>
                 <input type='search' value={input} placeholder={ isEdit ? 'edit base item': 'add base item'}
                  onChange={ (e) => setInput(e.target.value)} maxLength='10' />
