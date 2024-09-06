@@ -61,7 +61,7 @@ const App = () => {
         <center>
 
             <form className="item form-control" onSubmit={handleAdd}>
-                <input type='search' value={input} placeholder={ isEdit ? 'edit item': 'add item'}
+                <input type='search' value={input} placeholder={ isEdit ? 'edit base item': 'add base item'}
                  onChange={ (e) => setInput(e.target.value)} maxLength='10' />
                 <button type="submit" className="btn">
                     <i class={`fa  ${  isEdit ? 'fa-pencil-square-o': 'fa-plus' } ` } aria-hidden="true"></i>
